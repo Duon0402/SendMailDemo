@@ -69,7 +69,7 @@ namespace SendMailDemo.Services
 
 
             //Cột D
-            SetCellValue(worksheet, "D4:E4", "Person In Charge");
+            SetCellValue(worksheet, "D3:E3", "Person In Charge");
 
             // Cột E
             SetCellStyle(worksheet, "E5:G5", "CONSIGNEE", true, ExcelBorderStyle.Thin, ExcelHorizontalAlignment.Center);
